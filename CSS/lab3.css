@@ -44,17 +44,25 @@ main {
 
 
 .paint{
-    width: calc(50%);
-    height: calc(50%);
+    width:  100px;
+    height: 100px;
 }
 
+table {
+    display: grid;
+}
+/*
+.paint {
+    display: block;
+}
+*/
 @media screen and (max-width: 768px) {
     .img {
         display: flex;
     }
 }
 
-@media screen and (min-width: 100px), (orientation: landscape){
+@media screen and (min-width: 10px), (orientation: landscape){
     .img {
         display: flex;
     }
